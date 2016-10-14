@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	position:fixed;
+	background-color: #E2E1E2;
+	left: 0;
+	right: 0;
+	top: 0;
+	border-bottom: 1px solid #BCBBBC;
+	padding:10px;
+}
+
+.logo {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.nav-buttons {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	color: purple;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+/*--------------------End Nav Bar------------------------*/
+
+section {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.search-section input {
+  font-family: arial;
+  font-size: 15px;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #E3DBE0;
+  border-radius: 5px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search-section button {
+  font-size: 15px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #E3DBE0;
+  border-radius: 5px;
+}
+
+.magnifying-glass {
+	height:100%
+}
+/*----------------------End Search Section---------------------*/
+
+.pages {
+	display:inline-block;
+	font-color: ;
+	border: 1px solid #E3DBE0;
+	border-radius: 5px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 7px 12px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 7px 12px;
+  border-left: 1px solid #E3DBE0;
+  border-right: 1px solid #E3DBE0;
+}
+/*----------------------End Pages Section--------------*/
+
+.results {
+  padding: 0;
+}
+
+.result {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.result-date ,
+.result-location {
+  color: #AFACAE;
+}
+
+.result-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
